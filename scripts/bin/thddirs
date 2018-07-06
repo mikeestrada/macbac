@@ -1,0 +1,12 @@
+sudo mkdir -p  /opt/isv
+sudo mkdir -p /opt/isv/activemq
+sudo mkdir -p /opt/isv/storm
+sudo mkdir -p /opt/isv/kafka
+sudo mkdir -p /opt/isv/zookeeper
+sudo mkdir -p /opt/isv/jolokia
+sudo chown -R erikwilliams /opt/isv
+sudo mkdir -p /opt/hd/ca
+sudo mkdir -p /opt/hd/ca/var/activemq
+sudo mkdir -p /opt/hd/ca/mars/activemq/BR0/conf
+sudo chown -R erikwilliams /opt/hd
+

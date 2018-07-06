@@ -1,0 +1,9 @@
+#!/bin/bash
+USER=erikwilliamss
+
+if [ "$(whoami)" = "$USER" ]; then
+
+ echo "Yes"
+else
+ echo "no"
+fi

@@ -1,0 +1,9 @@
+#!/bin/bash
+
+if [ -Z $1 ]; then
+  export GOPATH=$(pwd)
+else
+  export GOPATH=${1}
+fi
+
+go env

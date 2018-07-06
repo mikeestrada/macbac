@@ -1,0 +1,9 @@
+#!/bin/bash
+
+host=$2
+hostpath=':'
+file=$1
+direction
+
+
+scp mqmadm@$1.homedepot.com:

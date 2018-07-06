@@ -1,0 +1,8 @@
+#!/bin/bash
+export USER="mqmadm"
+
+if [ ! -z $2 ] ; then
+	USER=$2
+fi
+
+ssh $USER@$1.homedepot.com $3
